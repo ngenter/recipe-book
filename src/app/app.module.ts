@@ -9,11 +9,12 @@ import { RecipeBookComponent } from './recipe-book.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item.component';
 import { RecipeListComponent } from './recipes/recipe-list//recipe-list.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, RecipeBookComponent, RecipesComponent, RecipeItemComponent, RecipeListComponent,
+    AppComponent, HeaderComponent, RecipeBookComponent, RecipesComponent, RecipeItemComponent, RecipeListComponent, RecipeDetailComponent,
   ],
   imports: [
     BrowserModule,
