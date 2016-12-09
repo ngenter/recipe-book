@@ -6,7 +6,7 @@ import { Recipe } from  '../recipe';
   templateUrl: 'recipe-detail.component.html'
 })
 export class RecipeDetailComponent implements OnInit {
-  @Input()selectedRecipe: Recipe
+  @Input() selectedRecipe: Recipe;
 
   constructor () {}
 

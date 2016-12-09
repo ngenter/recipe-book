@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 import { HeaderComponent } from './header.component';
-import { RecipesComponent } from './recipes'
+import { RecipesComponent } from './recipes';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 @Component({
   selector: 'rb-root',
