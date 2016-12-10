@@ -12,12 +12,13 @@ import { RecipeListComponent } from './recipes/recipe-list//recipe-list.componen
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { ShoppingListAddComponent } from './shopping-list/shopping-list-add.component'; 
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { DropdownDirective } from './dropdown.directive'
 
 
 @NgModule({
   declarations: [
     AppComponent, HeaderComponent, RecipeBookComponent, RecipesComponent, RecipeItemComponent, RecipeListComponent, RecipeDetailComponent, ShoppingListAddComponent, ShoppingListComponent,
-  
+    DropdownDirective,
   ],
   imports: [
     BrowserModule,
